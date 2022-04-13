@@ -139,3 +139,25 @@ header {
     box-shadow: 0px 0px 100px 100px hsla(233,26%,24%,0.2);
     pointer-events: all;
 }
+
+.btn-primary {
+    background: linear-gradient(90deg, var(--lime-green), var(--bright-cyan));
+    color: var(--white);
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    display: block;
+    margin: auto;
+    transition: 0.25s ease;
+
+}
+
+.btn-primary:hover {
+    opacity: 0.7;
+}
+
+.navbar .btn-primary{
+    display: none;
+}
+
