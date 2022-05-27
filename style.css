@@ -263,3 +263,130 @@ main{
     font-size: 15px;
     line-height: 1.7;
 }
+
+
+/* BLOG */
+
+
+.blog{
+    padding: 60px var(--px);
+    background: var(--very-light-gray);
+}
+
+.blog .section-title {
+    margin-bottom: 30px;
+}
+
+
+.article-card-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.article-card{
+    border-radius: 5px;
+    background: var(--white);
+    overflow: hidden;
+
+}
+
+
+.article-card .card-head{
+    height: 200px;
+}
+
+.article-card .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.article-card .card-body {
+    padding: 20px;
+}
+
+.article-card .article-author{
+    color: var(--grayish-blue);
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.article-card .card-title{
+    color: var(--dark-blue);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    transition: 00.25s ease;
+}
+
+.article-card .card-title:hover{ 
+    color: var(--lime-green);
+}
+
+.article-card .card-text {
+    color: var(--grayish-blue);
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+footer{
+    background: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px var(--px);
+}
+
+.footer-brand {
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.social-link{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.social-link ion-icon {
+    color: var(--white);
+    font-size: 30px;
+    display: block;
+    transition: 0.25s ease;
+}
+
+.social-link ion-icon:hover {
+    color: var(--lime-green);
+}
+
+.footer-nav {
+    margin-bottom: 30px;
+}
+
+.footer-nav ul,
+.footer-nav li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.footer-nav a {
+    color: var(--light-grayish-blue);
+    font-size: 15px;
+    transition: 0.25s ease;
+}
+
+.footer-nav a:hover {
+    color: var(--lime-green);
+}
+
+footer .btn-primary{
+    margin-bottom: 30px;
+    
+}
+
+.copyright {
+    color: var(--grayish-blue);
+    font-size: 14px;
+}
